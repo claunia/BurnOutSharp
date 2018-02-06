@@ -240,7 +240,7 @@ namespace BurnOutSharp
 
             if(ByteShield(path, files)) return "ByteShield";
 
-            if(Cactus(ref version, files)) return "Cactus Data Shield {version}";
+            if(Cactus(ref version, files)) return $"Cactus Data Shield {version}";
 
             ;
             if(CdCops(path, files)) return "CD-Cops";
@@ -261,13 +261,13 @@ namespace BurnOutSharp
 
             if(HexalockAutoLock(files)) return "Hexalock AutoLock";
 
-            if(ImpulseReactor(ref version, files)) return "Impulse Reactor {version}";
+            if(ImpulseReactor(ref version, files)) return $"Impulse Reactor {version}";
 
             if(IndyVcd(files)) return "IndyVCD";
 
             if(Key2AudioXs(files)) return "Key2Audio XS";
 
-            if(LaserLock(ref version, path, files)) return "LaserLock {version}";
+            if(LaserLock(ref version, path, files)) return $"LaserLock {version}";
 
             if(MediaCloQ(files)) return "MediaCloQ";
 
@@ -281,12 +281,12 @@ namespace BurnOutSharp
 
             if(SafeDiscLite(files)) return "SafeDisc Lite";
 
-            if(SafeDisc2(ref version, path, files)) return "SafeDisc {version}";
+            if(SafeDisc2(ref version, path, files)) return $"SafeDisc {version}";
 
             if(TzCopyProtector(files))
                 return "TZCopyProtector"; //has to be checked before SafeDisc because SafeDiscsearch searches for *.016
 
-            if(SafeDisc1(ref version, path, files)) return "SafeDisc {version}";
+            if(SafeDisc1(ref version, path, files)) return $"SafeDisc {version}";
 
             if(Safe_Lock(files)) return "SafeLock";
 
@@ -310,7 +310,7 @@ namespace BurnOutSharp
 
             if(WtmcdProtect(path)) return "WTM CD Protect";
 
-            if(WtmCopyProtection(ref version, files)) return "WTM Copy Protection {version}";
+            if(WtmCopyProtection(ref version, files)) return $"WTM Copy Protection {version}";
 
             if(Xcp(path, files)) return "XCP";
 
