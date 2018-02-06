@@ -43,7 +43,9 @@
     <Compile Include="ProtectionFind.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="README.md" />
+    <Content Include="..\README.md">
+      <Link>README.md</Link>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
